@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TempConverter">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/TempConverter.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
