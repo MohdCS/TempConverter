@@ -72,17 +72,17 @@ public class TempConverter extends Application {
 
                 // Make If-Statements to make changes on the result text field when preferred conditions are met.
                 if ((menuBox1.getValue().equals("Celsius")) && (menuBox2.getValue().equals("Fahrenheit"))) {
-                    result.setText((Double.parseDouble(value.getText()) * 1.8) + 32 + "");
+                    result.setText((Double.parseDouble(value.getText()) * 1.8) + 32 + "°F");
                 } else if ((menuBox1.getValue().equals("Celsius")) && (menuBox2.getValue().equals("Kelvin"))) {
-                    result.setText((Double.parseDouble(value.getText()) + 273.15 + ""));
+                    result.setText((Double.parseDouble(value.getText()) + 273.15 + "K"));
                 } else if ((menuBox1.getValue().equals("Fahrenheit")) && (menuBox2.getValue().equals("Celsius"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 32) * 5 / 9 + "");
+                    result.setText((Double.parseDouble(value.getText()) - 32) * 5 / 9 + "°C");
                 } else if ((menuBox1.getValue().equals("Fahrenheit")) && (menuBox2.getValue().equals("Kelvin"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 32) / 1.8 + 273.15 + "");
+                    result.setText((Double.parseDouble(value.getText()) - 32) / 1.8 + 273.15 + "K");
                 } else if ((menuBox1.getValue().equals("Kelvin")) && (menuBox2.getValue().equals("Celsius"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 273.15 + ""));
+                    result.setText((Double.parseDouble(value.getText()) - 273.15 + "°C"));
                 } else if ((menuBox1.getValue().equals("Kelvin")) && (menuBox2.getValue().equals("Fahrenheit"))) {
-                    result.setText((Double.parseDouble(value.getText()) * 1.8) - 459.67 + "");
+                    result.setText((Double.parseDouble(value.getText()) * 1.8) - 459.67 + "°F");
                 }
             } catch (Exception e) {
 
@@ -98,17 +98,17 @@ public class TempConverter extends Application {
 
                 // Make If-Statements to make changes on the result text field when preferred conditions are met.
                 if ((menuBox1.getValue().equals("Celsius")) && (menuBox2.getValue().equals("Fahrenheit"))) {
-                    result.setText((Double.parseDouble(value.getText()) * 1.8) + 32 + "");
+                    result.setText((Double.parseDouble(value.getText()) * 1.8) + 32 + "°F");
                 } else if ((menuBox1.getValue().equals("Celsius")) && (menuBox2.getValue().equals("Kelvin"))) {
-                    result.setText((Double.parseDouble(value.getText()) + 273.15 + ""));
+                    result.setText((Double.parseDouble(value.getText()) + 273.15 + "K"));
                 } else if ((menuBox1.getValue().equals("Fahrenheit")) && (menuBox2.getValue().equals("Celsius"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 32) * 5 / 9 + "");
+                    result.setText((Double.parseDouble(value.getText()) - 32) * 5 / 9 + "°C");
                 } else if ((menuBox1.getValue().equals("Fahrenheit")) && (menuBox2.getValue().equals("Kelvin"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 32) / 1.8 + 273.15 + "");
+                    result.setText((Double.parseDouble(value.getText()) - 32) / 1.8 + 273.15 + "K");
                 } else if ((menuBox1.getValue().equals("Kelvin")) && (menuBox2.getValue().equals("Celsius"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 273.15 + ""));
+                    result.setText((Double.parseDouble(value.getText()) - 273.15 + "°C"));
                 } else if ((menuBox1.getValue().equals("Kelvin")) && (menuBox2.getValue().equals("Fahrenheit"))) {
-                    result.setText((Double.parseDouble(value.getText()) * 1.8) - 459.67 + "");
+                    result.setText((Double.parseDouble(value.getText()) * 1.8) - 459.67 + "°F");
                 }
             } catch (Exception e) {
 
@@ -125,17 +125,17 @@ public class TempConverter extends Application {
 
                 // Make If-Statements to make changes on the result text field when preferred conditions are met.
                 if ((menuBox1.getValue().equals("Celsius")) && (menuBox2.getValue().equals("Fahrenheit"))) {
-                    result.setText((Double.parseDouble(value.getText()) * 1.8) + 32 + "");
+                    result.setText((Double.parseDouble(value.getText()) * 1.8) + 32 + "°F");
                 } else if ((menuBox1.getValue().equals("Celsius")) && (menuBox2.getValue().equals("Kelvin"))) {
-                    result.setText((Double.parseDouble(value.getText()) + 273.15 + ""));
+                    result.setText((Double.parseDouble(value.getText()) + 273.15 + "K"));
                 } else if ((menuBox1.getValue().equals("Fahrenheit")) && (menuBox2.getValue().equals("Celsius"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 32) * 5 / 9 + "");
+                    result.setText((Double.parseDouble(value.getText()) - 32) * 5 / 9 + "°C");
                 } else if ((menuBox1.getValue().equals("Fahrenheit")) && (menuBox2.getValue().equals("Kelvin"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 32) / 1.8 + 273.15 + "");
+                    result.setText((Double.parseDouble(value.getText()) - 32) / 1.8 + 273.15 + "K");
                 } else if ((menuBox1.getValue().equals("Kelvin")) && (menuBox2.getValue().equals("Celsius"))) {
-                    result.setText((Double.parseDouble(value.getText()) - 273.15 + ""));
+                    result.setText((Double.parseDouble(value.getText()) - 273.15 + "°C"));
                 } else if ((menuBox1.getValue().equals("Kelvin")) && (menuBox2.getValue().equals("Fahrenheit"))) {
-                    result.setText((Double.parseDouble(value.getText()) * 1.8) - 459.67 + "");
+                    result.setText((Double.parseDouble(value.getText()) * 1.8) - 459.67 + "°F");
                 }
             } catch (Exception e) {
 
