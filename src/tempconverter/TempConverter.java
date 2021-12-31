@@ -12,7 +12,6 @@ package tempconverter;
 
 // Import necessary library.
 import javafx.application.Application;
-import static javafx.application.Application.launch;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
